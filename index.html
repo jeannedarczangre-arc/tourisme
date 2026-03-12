@@ -1,1 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourisme au Burkina Faso | Explorez l'Inspiration</title>
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" title="Retour en haut">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Navigation (Sticky) -->
+    <header>
+        <nav class="navbar glass">
+            <div class="logo">
+                <span class="logo-text">Tourisme<span>BF</span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#activities">Activités</a></li>
+                <li><a href="#gallery">Galerie</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section Hero -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container reveal">
+            <span class="badge">Innovation</span>
+            <h1>Découvrez le Cœur de l'Afrique : Le Burkina Faso</h1>
+            <p>Explorez une terre de culture vibrante, de paysages à couper le souffle et d'une hospitalité légendaire. Le Pays des Hommes Intègres vous attend.</p>
+            <div class="hero-btns">
+                <a href="#activities" class="btn btn-primary">Explorer les sites</a>
+                <a href="#gallery" class="btn btn-download">Visiter les sites</a>
+                <a href="#contact" class="btn btn-secondary">Nous contacter</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about" class="about section-padding">
+        <div class="container reveal">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>À propos de nous</h2>
+                    <p>Nous sommes dédiés à la promotion du tourisme durable et authentique au Burkina Faso. Notre mission est de faire découvrir au monde entier les trésors cachés de notre pays tout en soutenant l'économie locale.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>10000+</h3>
+                            <p>Sites Visités</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>500k+</h3>
+                            <p>Touristes Heureux</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>200+</h3>
+                            <p>Guides Experts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img id="about-img-placeholder" src="image/banfora.jpg" alt="Tourisme Burkina Faso">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Section Activités -->
+    <section id="activities" class="activities section-padding bg-light">
+        <div class="container reveal">
+            <h2 class="section-title">Nos Activités & Destinations</h2>
+            <div class="activities-grid">
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                    <h3>Nature Sauvage</h3>
+                    <p>Découvrez les cascades de Banfora et les dômes de Fabedougou, des merveilles géologiques uniques.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-mask"></i>
+                    </div>
+                    <h3>Culture & Arts</h3>
+                    <p>Plongez dans l'histoire à travers le Musée National ou le festival du FESPACO à Ouagadougou.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Expéditions Guidées</h3>
+                    <p>Des circuits sur mesure à travers Bobo-Dioulasso, Gaoua et les réserves de faune du sud.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section Galerie / Slider -->
+    <section id="gallery" class="section-padding">
+        <div class="container reveal">
+            <h2 class="section-title">Galerie Touristique</h2>
+            <p class="section-subtitle" style="text-align: center; margin-bottom: 3rem;">
+                Quelques sites touristiques et la culture d'art burkinabé.
+            </p>
+            
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide active">
+                        <img src="image/dedougou.jpg" alt="Site de Dédougou">
+                        <div class="slide-content">
+                            <h3>Dédougou</h3>
+                            <p>Un site de prestige aux paysages uniques.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="image/bobo.jpg" alt="Bobo-Dioulasso">
+                        <div class="slide-content">
+                            <h3>Bobo-Dioulasso</h3>
+                            <p>La cité de Sya, capitale culturelle du Burkina.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="image/ouaga.jpg" alt="Ouagadougou">
+                        <div class="slide-content">
+                            <h3>Ouagadougou</h3>
+                            <p>Le coeur vibrant de l'Afrique de l'Ouest.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="image/banfora.jpg" alt="Banfora">
+                        <div class="slide-content">
+                            <h3>Banfora</h3>
+                            <p>Cascades et merveilles naturelles.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact section-padding">
+        <div class="container reveal">
+            <h2 class="section-title">Contactez-nous</h2>
+            <div class="contact-card card">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Votre Nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Votre Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Votre Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pied de page (Footer) -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2024 Tourisme Burkina Faso. Tous droits réservés.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
